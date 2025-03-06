@@ -4,6 +4,7 @@ on:
     branches:
       - main
     paths:
+      - en.json
       - locale-en.json
   workflow_dispatch:
     inputs:
