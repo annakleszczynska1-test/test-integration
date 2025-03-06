@@ -4,12 +4,6 @@
     "push": {
       "source": [
         {
-          "path": "./en.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "language": "en"
-        },
-        {
           "path": "./locale-en.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
@@ -19,14 +13,6 @@
     },
     "pull": {
       "target": [
-        {
-          "path": "./<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
         {
           "path": "./<language>.json",
           "file_format": "nested_json",
