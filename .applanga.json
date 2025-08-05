@@ -6,7 +6,7 @@
         {
           "path": "./en.json",
           "file_format": "nested_json",
-          "tag": "app:language:1266.json",
+          "tag": "app:language.json",
           "language": "en"
         },
         {
@@ -22,7 +22,7 @@
         {
           "path": "./<language>.json",
           "file_format": "nested_json",
-          "tag": "app:language:1266.json",
+          "tag": "app:language.json",
           "exclude_languages": [
             "en"
           ]
