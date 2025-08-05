@@ -14,10 +14,11 @@ jobs:
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga pull
         working-directory: checkout
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4.2.0
+        uses: applanga/pe-create-pull-request@main
         with:
           branch: newTranslations
           author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
