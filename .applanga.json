@@ -28,7 +28,7 @@
           ]
         },
         {
-          "path": "./<language>.json",
+          "path": "./locale-<language>.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
           "exclude_languages": [
